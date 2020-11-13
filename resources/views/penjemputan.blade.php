@@ -64,7 +64,6 @@
                       <?php
                       $array = explode("http", $item->address);
                       $arraySecond = explode(" ", $array[1]);
-                      echo $arraySecond[0];
                       ?>
                       <a href="http{{$arraySecond[0]}}"> http{{$arraySecond[0]}}</a></br>
                       @else
